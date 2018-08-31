@@ -74,12 +74,13 @@ $(document).ready(function() {
   //on click submit new gif button name into topics array and regen buttons
   $(".gif-form").on("click", "#submit-gif", function(e) {
     e.preventDefault();
-
+     //clear textbox
     // get user input
     var gif = $("#gif-input").val().trim();
 
      //push user input to topics array
      topics.push(gif);
+    $("#gif-input").val("");
 
     //regen buttons
     genButtons();
