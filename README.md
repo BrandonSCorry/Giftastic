@@ -1,6 +1,6 @@
 # Giftastic
 
-Giftastic project
+##Giftastic project
 
 Using the Giphy API, allow users to search for any gif topic they choose.
 
