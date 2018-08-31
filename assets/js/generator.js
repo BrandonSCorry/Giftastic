@@ -40,7 +40,7 @@ $(document).ready(function() {
         //loop gif divs for length of results (forced to 10 with limit parameter)
         for (var i = 0; i < results.length; i++) {
 
-          var div = $("<div>");
+          var div = $("<div class='float-left'>");
 
           var p = $("<p>").text("Rating: " + results[i].rating);
 

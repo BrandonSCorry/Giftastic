@@ -11,3 +11,15 @@ input#gif-input {
 #gif-dump {
   margin-top: 0.5rem;
 }
+
+#gif-dump p {
+  text-align: center;
+}
+
+img.gif {
+  margin-right: 0.3rem;
+}
+
+div.gif-form {
+  text-align: center;
+}
