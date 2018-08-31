@@ -42,7 +42,7 @@ $(document).ready(function() {
 
           var div = $("<div class='float-left'>");
 
-          var p = $("<p>").text("Rating: " + results[i].rating);
+          var p = $("<p>").text("Rating: " + results[i].rating.toUpperCase());
 
           var gifImg = $("<img class='gif' data-still='" + results[i].images.fixed_height_still.url + "' data-animate='" + results[i].images.fixed_height.url + "' data-state='still'>");
           gifImg.attr("src", results[i].images.fixed_height_still.url);
