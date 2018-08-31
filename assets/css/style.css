@@ -18,6 +18,7 @@ input#gif-input {
 
 img.gif {
   margin-right: 0.3rem;
+  cursor: pointer;
 }
 
 div.gif-form {
